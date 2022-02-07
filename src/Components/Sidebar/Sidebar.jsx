@@ -7,9 +7,9 @@ function Sidebar() {
   return <div className='sidebar'>
       <div className="sidebarWrapper">
           <div className="sidebarMenu">
-            <h3 className="sidebarTitle">Admin-Dash</h3>
+            <h3 className="sidebarTitle">Admin_Dash</h3>
             <ul className='sideBarList'>
-                <li className='sideBarListItem'>
+                <li className='sideBarListItem active'>
                     <LineStyle className='sideBarListItemLogo'/>
                     Home
                 </li>
@@ -25,7 +25,7 @@ function Sidebar() {
           </div>
          
           <div className="sidebarMenu">
-            <h3 className="sidebarTitle">Admin-Dash</h3>
+            <h3 className="sidebarTitle">Admin_Dash</h3>
             <ul className='sideBarList'>
                 <li className='sideBarListItem'>
                     <LineStyle className='sideBarListItemLogo'/>
@@ -43,7 +43,7 @@ function Sidebar() {
           </div>
 
           <div className="sidebarMenu">
-            <h3 className="sidebarTitle">Admin-Dash</h3>
+            <h3 className="sidebarTitle">Admin_Dash</h3>
             <ul className='sideBarList'>
                 <li className='sideBarListItem'>
                     <LineStyle className='sideBarListItemLogo'/>
@@ -61,7 +61,7 @@ function Sidebar() {
           </div>
 
           <div className="sidebarMenu">
-            <h3 className="sidebarTitle">Admin-Dash</h3>
+            <h3 className="sidebarTitle">Admin__Dash</h3>
             <ul className='sideBarList'>
                 <li className='sideBarListItem'>
                     <LineStyle className='sideBarListItemLogo'/>
@@ -77,6 +77,7 @@ function Sidebar() {
                 </li>
             </ul>
           </div>
+          
       </div>
   </div>;
 }

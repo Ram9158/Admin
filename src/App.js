@@ -2,6 +2,7 @@ import TopBar from "./Components/topbar/TopBar";
 import Sidebar from "./Components/Sidebar/Sidebar";
 // import HomeOutlinedIcon from "@material-ui/icons/HomeOutlined";
 import "./App.css";
+import Home from "./Pages/Home/Home";
 
 function App() {
   return (
@@ -9,8 +10,7 @@ function App() {
       <TopBar />
       <div className="container">
         <Sidebar />
-
-        <div className="other">Home</div>
+        <Home />
       </div>
     </div>
   );
