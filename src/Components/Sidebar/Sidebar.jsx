@@ -1,6 +1,18 @@
 import React from 'react';
 import './sidebar.css'
-import {LineStyle,Timeline,TrendingUp} from '@material-ui/icons';
+import {LineStyleOutlined,
+    TimelineOutlined,
+    TrendingUpOutlined,
+    HomeOutlined,
+    ReportProblemOutlined,
+    DomainOutlined,
+    MonetizationOnOutlined,
+    MailOutlineOutlined,
+    ControlCameraOutlined,
+    MessageOutlined,
+    FeedbackOutlined,
+    ReportOffOutlined,
+    AccountCircleOutlined} from '@material-ui/icons';
 
 
 function Sidebar() {
@@ -10,70 +22,75 @@ function Sidebar() {
             <h3 className="sidebarTitle">Admin_Dash</h3>
             <ul className='sideBarList'>
                 <li className='sideBarListItem active'>
-                    <LineStyle className='sideBarListItemLogo'/>
+                    <HomeOutlined className='sideBarListItemLogo'/>
                     Home
                 </li>
                 <li className='sideBarListItem'>
-                    <Timeline className='sideBarListItemLogo'/>
+                    <TimelineOutlined className='sideBarListItemLogo'/>
                     Analitycs
                 </li>
+                
                 <li className='sideBarListItem'>
-                    <TrendingUp className='sideBarListItemLogo'/>
+                    <TrendingUpOutlined className='sideBarListItemLogo'/>
                     Sales
                 </li>
             </ul>
           </div>
          
           <div className="sidebarMenu">
-            <h3 className="sidebarTitle">Admin_Dash</h3>
+            <h3 className="sidebarTitle">Quick_Menu</h3>
             <ul className='sideBarList'>
                 <li className='sideBarListItem'>
-                    <LineStyle className='sideBarListItemLogo'/>
-                    Home
+                    <AccountCircleOutlined className='sideBarListItemLogo'/>
+                    Users
                 </li>
                 <li className='sideBarListItem'>
-                    <Timeline className='sideBarListItemLogo'/>
-                    Analitycs
+                    <DomainOutlined className='sideBarListItemLogo'/>
+                    Products
                 </li>
                 <li className='sideBarListItem'>
-                    <TrendingUp className='sideBarListItemLogo'/>
-                    Sales
+                    <MonetizationOnOutlined className='sideBarListItemLogo'/>
+                    Transactions
+                </li>
+                <li className='sideBarListItem'>
+                    <ReportOffOutlined className='sideBarListItemLogo'/>
+                    Reports
                 </li>
             </ul>
           </div>
 
           <div className="sidebarMenu">
-            <h3 className="sidebarTitle">Admin_Dash</h3>
+            <h3 className="sidebarTitle">Notifications</h3>
             <ul className='sideBarList'>
                 <li className='sideBarListItem'>
-                    <LineStyle className='sideBarListItemLogo'/>
-                    Home
+                    <MailOutlineOutlined className='sideBarListItemLogo'/>
+                    Mail
                 </li>
                 <li className='sideBarListItem'>
-                    <Timeline className='sideBarListItemLogo'/>
-                    Analitycs
+                    <FeedbackOutlined className='sideBarListItemLogo'/>
+                    Feedback
                 </li>
                 <li className='sideBarListItem'>
-                    <TrendingUp className='sideBarListItemLogo'/>
-                    Sales
+                    <MessageOutlined className='sideBarListItemLogo'/>
+                    Messages
                 </li>
             </ul>
           </div>
 
           <div className="sidebarMenu">
-            <h3 className="sidebarTitle">Admin__Dash</h3>
+            <h3 className="sidebarTitle">Staff</h3>
             <ul className='sideBarList'>
                 <li className='sideBarListItem'>
-                    <LineStyle className='sideBarListItemLogo'/>
-                    Home
+                    <ControlCameraOutlined className='sideBarListItemLogo'/>
+                    Manage
                 </li>
                 <li className='sideBarListItem'>
-                    <Timeline className='sideBarListItemLogo'/>
+                    <LineStyleOutlined className='sideBarListItemLogo'/>
                     Analitycs
                 </li>
                 <li className='sideBarListItem'>
-                    <TrendingUp className='sideBarListItemLogo'/>
-                    Sales
+                    <ReportProblemOutlined className='sideBarListItemLogo'/>
+                    Reports
                 </li>
             </ul>
           </div>
